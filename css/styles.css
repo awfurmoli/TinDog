@@ -126,3 +126,44 @@ h2 {
 .price-card {
   padding: 3% 2%;
 }
+
+/* Section CTA */
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+#cta h3 {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  color: white;
+}
+
+/* Footer Section */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+}
+
+#footer p {
+  color: #8f8f8f;
+}
+
+.footer-icon {
+  padding: 3% 2%;
+}
+
+/* Media Queries */
+
+@media (max-width: 1070px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
